@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sample-project';
+  title = 'Rudra_Project';
+  first_name = 'Rudra';
+  last_name = 'Shailesh';
+  firstName: string = "Shailesh";
+  lastName:string = "Rudra";
+  products = ["Mobile", "Laptop", "Mouse", ];
+  myFunction(): void { 
+    alert('Show alert!'); 
+  } 
 }
